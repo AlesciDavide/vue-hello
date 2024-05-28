@@ -10,6 +10,11 @@
 <body>
     <main>
         <section id="test">
+            <label for="userName">Inserisci quello che vuoi</label>
+            <input id="userName" type="text" v-model="message">
+            <label for="imgUser">Inserisci un link per modificare l'immagine</label>
+            <input id="imgUser" type="text" v-model="urlImg">
+
             <h1>
                 {{ message }}
             </h1>
