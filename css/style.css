@@ -17,3 +17,7 @@ main section{
 img{
     width: 50%;
 }
+
+.filtroImmagine{
+    filter: blur(5px);
+}
